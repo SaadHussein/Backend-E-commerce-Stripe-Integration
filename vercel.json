@@ -6,15 +6,10 @@
       "use": "@now/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.js"
-    }
-  ],
+
   "headers": [
     {
-      "source": "/service-worker.js",
+      "source": "/server.js",
       "headers": [
         {
           "key": "Cache-Control",
